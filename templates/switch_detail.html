@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{ switch_ip }} Detay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: Arial; background-color: #f0f0f0; padding: 20px; }
+        .port-container { display: flex; flex-wrap: wrap; gap: 15px; }
+        .port-box {
+            text-align: center;
+            width: 70px;
+        }
+        .port-icon {
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .active-port { color: #5bea09; }
+        .inactive-port { color: #b5b5c3; }
+      #popup {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+    width: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+#popup h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+#popup-content {
+    margin-bottom: 15px;
+}
+#popup-content ul {
+    padding-left: 18px;
+}
+#popup-content li {
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+.xgigabit-port {
+    color: #FF5733 !important;  /* Örneğin parlak turuncu */
+}
+
+.mac-badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #ff5b5b;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+}
+
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+  <div style="margin-bottom: 50px;">
+<input type="text" id="mac-search" placeholder="MAC adresi girin" oninput="formatMAC(this)" maxlength="17" style="padding: 5px; width: 300px;">
+<button onclick="searchMAC()" style="padding: 6px;">Ara</button>
+<label style="display: block; margin: 10px 0;">
+    <input type="checkbox" id="activeOnlyToggle" onchange="toggleInactivePorts()">
+    Sadece aktif portları göster
+</label>
+
+
+</div>
+
+    <h1><b>Switch: {{ switch_ip }}</b></h1>
+    <div class="port-container">
+{% set max_real_port = entries | selectattr("port_number") | map(attribute='port_number') | reject('equalto', None) | max %}
+{% if max_real_port == 24 %}
+    {% set max_port = 32 %}
+{% elif max_real_port == 48 %}
+    {% set max_port = 52 %}
+{% else %}
+    {% set max_port = max_real_port %}
+{% endif %}
+
+{% for port_number in range(1, max_port + 1) %}
+    {% set matched = entries | selectattr("port_number", "equalto", port_number) | list %}
+    {% if matched %}
+        {% set port_entry = matched[0] %}
+        {% set port_name = port_entry.port %}
+        {% set port_macs = entries | selectattr("port", "equalto", port_name) | list %}
+    {% else %}
+        {# Virtüel XGigabit portlar ekleniyor #}
+        {% if (max_real_port == 24 and port_number > 24) or (max_real_port == 48 and port_number > 48) %}
+            {% set port_index = port_number - 48 %}
+            {% set port_name = 'XGigabitEthernet0/0/' ~ port_index %}
+        {% else %}
+            {% set port_name = '' %}
+        {% endif %}
+        {% set port_macs = [] %}
+    {% endif %}
+
+    {% if 'XGigabit' in port_name %}
+        {% set renk_class = 'active-port xgigabit-port' if port_macs|length > 0 else 'inactive-port xgigabit-port' %}
+    {% else %}
+        {% set renk_class = 'active-port' if port_macs|length > 0 else 'inactive-port' %}
+    {% endif %}
+
+    {% set hover_list = port_macs[:5] %}
+    {% set hover_lines = [] %}
+    {% for mac in hover_list %}
+        {% set _ = hover_lines.append("MAC: " ~ mac.mac ~ " | VLAN: " ~ mac.vlan) %}
+    {% endfor %}
+    {% if port_macs|length > 5 %}
+        {% set _ = hover_lines.append("+" ~ (port_macs|length - 5) ~ " diğer") %}
+    {% endif %}
+    {% set hover_text = hover_lines|join('\n') if hover_lines else "Boş port" %}
+
+<div class="port-box">
+    <div style="position: relative;">
+        <i class="fas fa-ethernet port-icon {{ renk_class }}"
+           title="{{ hover_text }}"
+           data-port="{{ port_name }}"
+           data-macs='{{ port_macs | tojson | safe }}'
+           onclick="showPopup(this)"></i>
+        {% if port_macs|length > 0 %}
+        <span class="mac-badge">{{ port_macs|length }}</span>
+        {% endif %}
+    </div>
+    {{ port_number }}
+</div>
+
+{% endfor %}
+
+
+    </div>
+
+    <div id="overlay" onclick="hidePopup()"></div>
+    <div id="popup">
+        <h3 id="popup-title">Port Detayı</h3>
+        <div id="popup-content"></div>
+        <button onclick="hidePopup()">Kapat</button>
+    </div>
+
+    <p><a href="/">Geri dön</a></p>
+
+    <script>
+
+      function searchMAC() {
+    const input = document.getElementById('mac-search').value.trim().toUpperCase();
+    if (!input) return alert("Lütfen bir MAC adresi girin.");
+
+    // Tüm port ikonlarını gez
+    const icons = document.querySelectorAll('.port-icon');
+    let found = false;
+
+    icons.forEach(icon => {
+        const macs = JSON.parse(icon.getAttribute('data-macs'));
+        const match = macs.find(e => e.mac === input);
+        if (match) {
+            found = true;
+            showMACPopup(match, icon.getAttribute('data-port'));
+        }
+    });
+
+    if (!found) {
+        alert("MAC adresi bulunamadı.");
+    }
+}
+function toggleInactivePorts() {
+    const showOnlyActive = document.getElementById('activeOnlyToggle').checked;
+    const boxes = document.querySelectorAll('.port-box');
+
+    boxes.forEach(box => {
+        const icon = box.querySelector('.port-icon');
+        if (showOnlyActive && icon.classList.contains('inactive-port')) {
+            box.style.display = 'none';
+        } else {
+            box.style.display = 'inline-block';
+        }
+    });
+}
+
+function formatMAC(input) {
+    let raw = input.value.replace(/[^a-fA-F0-9]/g, '').toUpperCase();
+    let formatted = '';
+    for (let i = 0; i < raw.length && i < 12; i += 2) {
+        formatted += raw.substr(i, 2);
+        if (i < 10) formatted += '-';
+    }
+    input.value = formatted;
+}
+
+
+function showMACPopup(macEntry, portName) {
+    const title = document.getElementById('popup-title');
+    const content = document.getElementById('popup-content');
+
+    title.textContent = `MAC Arama Sonucu`;
+    content.innerHTML = `
+        <b>MAC:</b> ${macEntry.mac}<br>
+        <b>VLAN:</b> ${macEntry.vlan}<br>
+        <b>Port:</b> ${portName}
+    `;
+
+    document.getElementById('popup').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+}
+
+
+
+
+
+
+     function showPopup(element) {
+    const port = element.getAttribute('data-port');
+    const macs = JSON.parse(element.getAttribute('data-macs'));
+    const title = document.getElementById('popup-title');
+    const content = document.getElementById('popup-content');
+
+    title.textContent = `Port: ${port}`;
+    if (macs.length === 0) {
+        content.innerHTML = "<i>MAC kaydı bulunamadı.</i>";
+    } else {
+        content.innerHTML = '<ul>' + macs.map(e => `<li><b>MAC:</b> ${e.mac} &nbsp;&nbsp; <b>VLAN:</b> ${e.vlan}</li>`).join('') + '</ul>';
+    }
+
+    document.getElementById('popup').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+}
+
+
+        function hidePopup() {
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('overlay').style.display = 'none';
+        }
+
+    
+    </script>
+</body>
+</html>
