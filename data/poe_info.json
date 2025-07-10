@@ -1,0 +1,266 @@
+[
+  {
+    "index": "1",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "2",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "4",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "5",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "6",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "7",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "8",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "9",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "10",
+    "enabled": "42",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "11",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "12",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "13",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "14",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "15",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "16",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "17",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "18",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "19",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "20",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "21",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "22",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "23",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "24",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "25",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "26",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "27",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "28",
+    "enabled": "126",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "29",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "30",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "31",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "32",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "33",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  },
+  {
+    "index": "34",
+    "enabled": "0",
+    "status": "0",
+    "voltage": "0",
+    "current": "N/A",
+    "power": "0"
+  }
+]

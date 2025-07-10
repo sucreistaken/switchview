@@ -2,7 +2,7 @@ import json
 import os
 from pysnmp.hlapi import *
 
-SWITCHES_FILE = r"-"
+SWITCHES_FILE = r"C:\Users\BILGIISLEM\Desktop\nac-panel\switches.json"
 OUTPUT_FILE = 'data/mac_table.json'
 
 DOT1D_TP_FDB_ADDRESS = '1.3.6.1.2.1.17.4.3.1.1'
@@ -12,7 +12,48 @@ IFDESCR              = '1.3.6.1.2.1.2.2.1.2'
 DOT1Q_PVID           = '1.3.6.1.2.1.17.7.1.4.5.1.1'
 
 TRUNK_PORTS = ["GE0/0/24", "GigabitEthernet0/0/24"]  # trunk portlar için VLAN güvenilmez
+# power informations
+def get_poe_info(ip, user, auth, priv):
+    oids = {
+        "enabled": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.15",
+        "status": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.16",
+        "voltage": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.18",
+        "current": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.19",
+        "power":   "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.20"
+    }
 
+    results = {key: {} for key in oids}
+
+    for key, oid in oids.items():
+        for (errInd, errStat, errIdx, varBinds) in bulkCmd(
+            SnmpEngine(),
+            UsmUserData(user, auth, priv, authProtocol=usmHMACMD5AuthProtocol, privProtocol=usmDESPrivProtocol),
+            UdpTransportTarget((ip, 161), timeout=5, retries=3),
+            ContextData(),
+            0, 50,
+            ObjectType(ObjectIdentity(oid)),
+            lexicographicMode=False
+        ):
+            if errInd or errStat:
+                break
+            for vb in varBinds:
+                index = vb[0].prettyPrint().split('.')[-1]
+                results[key][index] = str(vb[1])
+    
+    # Combine by port index
+    combined = []
+    for idx in results["enabled"]:
+        combined.append({
+            "index": idx,
+            "enabled": results["enabled"].get(idx, "N/A"),
+            "status": results["status"].get(idx, "N/A"),
+            "voltage": results["voltage"].get(idx, "N/A"),
+            "current": results["current"].get(idx, "N/A"),
+            "power": results["power"].get(idx, "N/A"),
+        })
+
+    return combined
+###########
 def snmp_bulk(ip, oid, user, auth, priv):
     result = []
     for (errInd, errStat, errIdx, varBinds) in bulkCmd(
@@ -111,8 +152,8 @@ def collect_switch_data(sw):
             "vlan": "",
             "port_number": port_number
         })
-
-    return result
+    poe_info = get_poe_info(ip, user, auth, priv)
+    return result, poe_info
  
 import sys
 
@@ -132,7 +173,9 @@ def main():
         return
 
     print(f"[+] {target_ip} sorgulaniyor...")
-    data = collect_switch_data(sw)
+    data, poe_data = collect_switch_data(sw)
+    with open('data/poe_info.json', 'w') as f:
+        json.dump(poe_data, f, indent=2)
 
     # Önceki kayıtları oku
     if os.path.exists(OUTPUT_FILE):
@@ -140,6 +183,7 @@ def main():
             all_data = json.load(f)
     else:
         all_data = []
+        
 
     # Eski verileri bu switch IP'sine göre filtrele (temizle)
     all_data = [entry for entry in all_data if entry['switch_ip'] != target_ip]

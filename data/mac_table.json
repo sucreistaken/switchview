@@ -1,0 +1,2907 @@
+[
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-00-5E-00-01-01",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-02-A2-7C-3E-6F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-22-34-B1-57",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E2-EE",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E2-F0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-1A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-1F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-34",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-4D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-5A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-5C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-8C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-91",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-92",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-9B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-9E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-A2",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-A8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-AD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-B2",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-B5",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-BC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-C3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-C4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-C5",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-C6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-D3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-E0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-E5",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-EA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-EC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-F6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E3-FC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E4-08",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E4-0A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-E4-18",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-6E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-72",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-74",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-76",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-77",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-78",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-7A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-08-D1-03-F4-7B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0A-86-B2-30-15",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0A-86-B7-E5-1E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0A-86-BF-A1-22",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0A-86-BF-A1-26",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0A-86-C2-71-95",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0A-CD-44-D6-0A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0C-29-15-2D-84",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0C-29-62-8B-C4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0C-29-6B-38-6A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0C-29-78-75-D6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0C-29-EE-F2-BB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0C-29-FB-AC-BA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-0C-29-FB-AC-C4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-11-32-62-57-4D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-15-65-D7-B4-DB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-15-65-D7-B5-16",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-17-C8-56-F4-22",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-17-C8-90-D2-3B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-17-C8-C8-A5-A7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-18-7D-DC-7B-47",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-18-92-18-88-F8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-18-92-18-D0-CF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-1E-06-4A-E2-B3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-1E-06-4A-E3-A6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-26-73-8D-B9-00",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-26-73-A4-9F-55",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-26-73-AC-6F-F0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-26-73-C2-8C-86",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-2B-67-CA-B4-2A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-2B-67-CA-B6-33",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-2E-C7-9D-E5-4B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-2E-C7-9D-E5-4F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-2E-C7-9D-E5-91",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-2E-C7-9D-E6-4A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-2E-C7-EC-37-D1",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-10-ED",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-27-77",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-50-E9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-76-CF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-7A-45",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-7D-2D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-7E-6B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-8E-95",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-9E-FE",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-BB-DE",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-E1-9F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-82-E3-48",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-27-3D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-3D-CF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-3F-32",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-71-40",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-A9-7E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-C7-EB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-E7-8E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-98-F2-D9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-0D-2D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-3C-5C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-50-57",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-67-78",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-85-EE",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-94-97",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-94-DB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-AB-73",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-9D-B2-9E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-50-56-BF-79-D2",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-60-34-5C-03-1C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-60-65-7A-18-90",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-60-65-7A-83-4B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-60-65-A1-4D-3D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-60-65-A2-4C-AF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-E0-4C-36-0C-1C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "00-E0-4C-68-04-27",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "02-D5-0B-3D-F5-86",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "04-0E-3C-E0-97-3C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "04-D6-AA-A4-60-F7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "04-D9-C8-B9-03-46",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "06-4D-F1-E9-8E-7E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "06-D4-C3-F8-29-A7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "08-9D-F4-CD-6B-26",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "0A-51-57-F6-C8-1F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "0C-9A-3C-3A-7D-25",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "10-91-D1-71-AA-48",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "10-F9-20-59-94-60",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "14-18-C3-C8-82-73",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "14-18-C3-E2-E8-34",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "14-EB-08-C3-F9-28",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "18-87-40-87-86-43",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "1A-60-06-95-DD-C4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "1A-78-2B-DC-B3-02",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "1C-6F-65-86-8D-5C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "1E-EE-E6-46-1C-B7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "20-7B-D5-1A-06-5D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "24-0F-9B-20-B7-CF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "24-BC-F8-5A-04-BD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "26-34-D4-02-7E-36",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "2A-73-8E-31-BD-A0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "2C-FF-65-FC-DF-4B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "30-CD-A7-F3-90-E3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "34-41-5D-B2-CF-A0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-91-B7-4E-6F-AC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-31-B7-65",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-BB-17",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/6",
+    "mac": "38-F3-AB-89-C1-9B",
+    "vlan": "20",
+    "port_number": 6
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-C7-53",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-CA-09",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-CF-71",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-DC-DB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-DD-03",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-DF-A1",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-E9-33",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F3-AB-89-FB-4D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "38-F9-D3-16-DB-A4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "3A-A8-0C-71-44-18",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "40-F2-E9-A0-7F-42",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "44-45-6F-05-87-4F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "44-45-6F-05-87-F5",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "44-45-6F-05-88-05",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "44-45-6F-05-88-14",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "44-45-6F-05-88-62",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "44-9B-C1-6D-9D-F0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "48-2A-E3-37-3E-85",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "4A-52-C9-31-82-6D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "4C-49-6C-7E-3E-34",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "4C-49-6C-D1-E2-64",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "4E-2C-49-72-E8-34",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "50-9A-4C-36-A7-A2",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "54-35-30-8E-DA-61",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "56-34-2F-8A-EA-53",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "58-38-79-69-97-E9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "58-38-79-69-99-38",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-54-6D-60-B5-60",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-54-6D-60-B8-50",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-60-BA-3F-40-D3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-BA-2C-25-68-96",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-BA-2C-88-60-A0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-BA-2C-88-65-80",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-BA-2C-88-6C-50",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-57-AC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-58-8C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-59-7C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-59-B0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-59-C8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-5A-00",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-5A-4C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-5B-0C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-E1-76-F2-5B-90",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-ED-8C-3C-40-3C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-ED-8C-69-3E-02",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-ED-8C-69-3E-04",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-ED-8C-69-3E-1C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5C-ED-8C-69-3E-28",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "5E-38-56-2E-64-DA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "60-AB-67-D6-1C-C1",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "60-D2-B9-09-56-45",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "62-56-55-A0-E1-AD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "68-3E-26-F6-3F-10",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "68-E4-3B-30-7D-C7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "6C-3C-7C-F4-C7-67",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "6C-3C-7C-F5-A6-C8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "6C-3C-8C-06-8B-00",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "6C-4B-90-69-82-2A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "6C-4B-90-80-D0-7A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "6C-4B-90-AC-90-91",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-B5-E8-22-90-8D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-B5-E8-24-0B-FB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-7C-D5",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-82-5F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-89-41",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-90-E3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-91-CF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-95-27",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-97-EE",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-9B-AD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-A2-8B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "70-F0-96-41-A3-2A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-19-F4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-1A-14",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-20-A0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-21-92",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-21-F8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-22-52",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-23-24",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-B4-23-96",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-4D-BD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-4E-21",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-4E-43",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-4F-4B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-51-17",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-52-19",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-53-1F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-53-2B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-53-C9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-53-E1",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-54-09",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-54-2B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "74-5D-22-BB-55-D1",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "78-45-C4-3A-4F-73",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "78-58-60-43-38-50",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "78-B8-D6-E5-61-B6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "78-B8-D6-E5-66-2C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "7A-55-C8-BC-A0-1E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "80-5E-0C-11-1C-80",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "80-5E-0C-11-1D-23",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "80-5E-C0-B4-58-DD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "80-7C-62-69-51-51",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "80-7C-62-96-31-BA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "80-80-2C-A9-D3-A8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "82-B0-21-6E-49-0E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "82-EF-AE-04-25-51",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "84-A9-38-5F-29-91",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "84-A9-38-5F-32-FB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "88-AE-DD-A4-2C-9A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "88-AE-DD-A4-67-7E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "88-E9-A4-85-F5-B8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8A-01-8F-20-A4-5A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-38-75-38",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FB-BC-CC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FB-E5-DA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FB-F1-9E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FB-F3-D0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FF-83-C9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FF-84-C7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FF-85-D1",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8C-8C-AA-FF-98-A3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "8E-50-C9-F1-1E-A4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "92-26-DE-C8-A6-25",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "94-C6-91-D4-25-8C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "94-C6-91-D4-40-23",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "94-C6-91-D4-BA-3C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "96-E8-75-C5-AF-CD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "98-29-A6-06-33-A4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "98-29-A6-5A-BF-73",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "98-2C-BC-21-D0-63",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "98-EE-CB-CB-BB-1C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A0-D3-C1-E9-15-48",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-01-A0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-02-54",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-02-5C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-03-88",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-04-E8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-04-EC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-05-A0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-06-0C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-06-70",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-06-C0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-07-0C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-07-94",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-07-B8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-07-F4",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "A4-88-73-3C-56-00",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "AC-B9-2F-26-DB-F2",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "AC-B9-2F-26-DC-F6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "AC-B9-2F-2B-B8-F0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "AC-B9-2F-98-40-07",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "AC-B9-2F-98-43-58",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "B0-16-56-BE-42-90",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "B4-7A-F1-3A-FA-76",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "BE-BF-57-24-E1-B3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C2-A6-4A-9A-05-9D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C4-70-AB-D5-5E-B3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C4-D4-38-49-9B-20",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-0B-3A-06-0D-A0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-0F-3A-06-0B-69",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-1A-3A-06-19-3C",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-1F-66-05-59-6D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-1F-BE-1D-F4-48",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-24-3A-06-08-EF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-27-DA-90",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-27-F0-B0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-28-26-50",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-28-2C-90",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-28-83-D0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-28-85-B0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-28-8F-F0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-84-CF-28-94-70",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "C8-D9-D2-09-16-44",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "CA-02-44-B7-E9-7E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "CA-2E-25-4B-66-79",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "CA-EE-C9-C2-8C-F2",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "CE-51-72-64-48-23",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D2-DF-37-C3-5B-CF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D6-65-79-DD-EB-2A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D6-A6-2A-2A-0C-D9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D6-E3-1E-8F-17-F9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D8-43-AE-E2-56-1A",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D8-5E-D3-62-FB-8D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D8-BB-C1-28-E8-B7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D8-BB-C1-28-F1-CE",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "D8-BB-C1-82-42-41",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "DC-C2-C9-60-6C-9D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E0-73-E7-7D-42-E8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E0-BE-03-33-00-D8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E0-BE-03-33-0F-03",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E0-DC-A0-E3-6C-65",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E4-0D-36-B8-71-C6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-19-28-41",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-19-2A-A7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-19-2D-E3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-19-3D-27",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-19-3E-33",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-19-4B-61",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-19-4B-71",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-BD-2F-FC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-BD-2F-FE",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-BD-30-02",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-BD-3C-76",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-BD-95-28",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-C9-3F-8F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-C9-78-4D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-C9-79-6B",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-80-88-C9-80-C5",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-A6-60-41-77-D0",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-A6-60-41-77-D6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-A6-60-41-77-D8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-A6-60-41-77-DA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-A6-60-41-77-DB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "E8-A6-60-41-77-DD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EA-75-57-43-A7-83",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-E8-91",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-E9-A2",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-44",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-58",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-61",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-62",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-65",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-66",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-69",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-A7",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-B5",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-C8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-DB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-DC",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-E6",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-F9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-FA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EA-FB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EB-02",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EB-35",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EB-42",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EB-4D",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EB-54",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EC-74-D7-1C-EB-57",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/17",
+    "mac": "EC-F4-BB-82-EE-54",
+    "vlan": "20",
+    "port_number": 17
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "EE-33-95-27-13-7F",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F0-20-FF-5D-CE-AB",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F2-5A-C8-B6-BF-E9",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F2-A3-6B-1C-E6-E8",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F2-C3-74-1A-21-8E",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F4-6B-8C-8A-BD-69",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F4-8E-38-A4-66-F1",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F4-A4-D6-DD-2B-80",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F6-F9-19-14-C9-CA",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F8-75-A4-91-8B-78",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F8-75-A4-91-8C-E3",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "F8-E4-3B-34-1E-27",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FA-FF-D8-C9-25-81",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FC-5C-EE-B3-04-AD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FC-5C-EE-B3-08-DD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FC-5C-EE-B3-0B-69",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FC-5C-EE-B5-9A-AF",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FC-5C-EE-B5-9B-FD",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FC-5C-EE-B6-AA-62",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "GigabitEthernet0/0/24",
+    "mac": "FC-73-FB-A3-8D-90",
+    "vlan": "1 (PVID, ger\u00e7ek VLAN olmayabilir)",
+    "port_number": 24
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/1",
+    "mac": "",
+    "vlan": "",
+    "port_number": 25
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/2",
+    "mac": "",
+    "vlan": "",
+    "port_number": 26
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/3",
+    "mac": "",
+    "vlan": "",
+    "port_number": 27
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/4",
+    "mac": "",
+    "vlan": "",
+    "port_number": 28
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/5",
+    "mac": "",
+    "vlan": "",
+    "port_number": 29
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/6",
+    "mac": "",
+    "vlan": "",
+    "port_number": 30
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/7",
+    "mac": "",
+    "vlan": "",
+    "port_number": 31
+  },
+  {
+    "switch_ip": "172.16.99.12",
+    "port": "XGigabitEthernet0/0/8",
+    "mac": "",
+    "vlan": "",
+    "port_number": 32
+  }
+]

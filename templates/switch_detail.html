@@ -85,7 +85,16 @@
 
 </div>
 
-    <h1><b>Switch: {{ switch_ip }}</b></h1>
+{% if voltages %}
+  <div style="margin: 20px 0; background: #fff8e6; border: 1px solid #ccc; padding: 15px; border-radius: 6px;">
+    <h3>Switch Voltaj Bilgileri</h3>
+    <ul>
+      {% for v in voltages %}
+        <li><b>OID:</b> {{ v.oid }} &nbsp;&nbsp; <b>Değer:</b> {{ v.value }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
     <div class="port-container">
 {% set max_real_port = entries | selectattr("port_number") | map(attribute='port_number') | reject('equalto', None) | max %}
 {% if max_real_port == 24 %}
@@ -151,6 +160,7 @@
     <div id="overlay" onclick="hidePopup()"></div>
     <div id="popup">
         <h3 id="popup-title">Port Detayı</h3>
+                 <button id="queryAllBtn" onclick="queryAllVendors()" style="float: right; margin-top: -35px;">Tümünü Sorgula</button>
         <div id="popup-content"></div>
         <button onclick="hidePopup()">Kapat</button>
     </div>
@@ -158,7 +168,7 @@
     <p><a href="/">Geri dön</a></p>
 
     <script>
-
+const macCache = {};
       function searchMAC() {
     const input = document.getElementById('mac-search').value.trim().toUpperCase();
     if (!input) return alert("Lütfen bir MAC adresi girin.");
@@ -213,17 +223,14 @@ function showMACPopup(macEntry, portName) {
     content.innerHTML = `
         <b>MAC:</b> ${macEntry.mac}<br>
         <b>VLAN:</b> ${macEntry.vlan}<br>
-        <b>Port:</b> ${portName}
+        <b>Port:</b> ${portName}<br><br>
+        <button onclick="fetchVendor('${macEntry.mac}', this)">Vendor Sorgula</button>
+        <span class="vendor-result"></span>
     `;
 
     document.getElementById('popup').style.display = 'block';
     document.getElementById('overlay').style.display = 'block';
 }
-
-
-
-
-
 
      function showPopup(element) {
     const port = element.getAttribute('data-port');
@@ -235,7 +242,14 @@ function showMACPopup(macEntry, portName) {
     if (macs.length === 0) {
         content.innerHTML = "<i>MAC kaydı bulunamadı.</i>";
     } else {
-        content.innerHTML = '<ul>' + macs.map(e => `<li><b>MAC:</b> ${e.mac} &nbsp;&nbsp; <b>VLAN:</b> ${e.vlan}</li>`).join('') + '</ul>';
+content.innerHTML = '<ul>' + macs.map(e => `
+    <li>
+        <b>MAC:</b> ${e.mac} &nbsp;&nbsp; 
+        <b>VLAN:</b> ${e.vlan} &nbsp;&nbsp;
+        <button onclick="fetchVendor('${e.mac}', this)">Sorgula</button>
+        <span class="vendor-result"></span>
+    </li>
+`).join('') + '</ul>';
     }
 
     document.getElementById('popup').style.display = 'block';
@@ -247,6 +261,61 @@ function showMACPopup(macEntry, portName) {
             document.getElementById('popup').style.display = 'none';
             document.getElementById('overlay').style.display = 'none';
         }
+function fetchVendor(mac, button) {
+    const span = button.nextElementSibling;
+
+    if (macCache[mac]) {
+        span.textContent = ` → ${macCache[mac]}`;
+        button.remove();
+        return;
+    }
+
+    button.disabled = true;
+    button.textContent = 'Sorgulanıyor...';
+
+    fetch(`/api/vendor_lookup/${mac}`)
+        .then(response => response.json())
+        .then(data => {
+            const vendor = data.vendor;
+            macCache[mac] = vendor; // cache'e kaydet
+            span.textContent = ` → ${vendor}`;
+            button.remove();
+        })
+        .catch(error => {
+            span.textContent = ` → Hata: ${error}`;
+            button.disabled = false;
+            button.textContent = 'Tekrar Dene';
+        });
+}
+
+async function queryAllVendors() {
+    const rows = document.querySelectorAll('#popup-content li');
+
+    for (let i = 0; i < rows.length; i++) {
+        const row = rows[i];
+        const mac = row.querySelector('b').nextSibling.textContent.trim();
+        const button = row.querySelector('button');
+        const span = row.querySelector('.vendor-result');
+
+        if (span.textContent.trim()) continue; // Zaten doluysa atla
+
+        button.disabled = true;
+        button.textContent = 'Sorgulanıyor...';
+
+        try {
+            const resp = await fetch(`/api/vendor_lookup/${mac}`);
+            const data = await resp.json();
+            span.textContent = ` → ${data.vendor}`;
+            button.remove();
+        } catch (e) {
+            span.textContent = ` → Hata: ${e}`;
+            button.disabled = false;
+            button.textContent = 'Tekrar Dene';
+        }
+
+        await new Promise(resolve => setTimeout(resolve, 500)); // Delay 0.5s
+    }
+}
 
     
     </script>

@@ -19,6 +19,43 @@ def index():
 
     switch_ips = sorted(set(entry['switch_ip'] for entry in data))
     return render_template('index.html', switch_ips=switch_ips)
+import requests
+
+import requests
+
+VENDOR_CACHE_FILE = 'data/vendor_cache.json'
+
+def load_vendor_cache():
+    if os.path.exists(VENDOR_CACHE_FILE):
+        with open(VENDOR_CACHE_FILE) as f:
+            return json.load(f)
+    return {}
+
+def save_vendor_cache(cache):
+    with open(VENDOR_CACHE_FILE, 'w') as f:
+        json.dump(cache, f, indent=2)
+
+@app.route('/api/vendor_lookup/<mac>')
+def vendor_lookup(mac):
+    cache = load_vendor_cache()
+    mac = mac.upper()
+
+    if mac in cache:
+        return jsonify({"vendor": cache[mac]})
+
+    try:
+        resp = requests.get(f"https://api.maclookup.app/v2/macs/{mac}", timeout=5)
+        if resp.status_code == 200:
+            data = resp.json()
+            vendor = data.get("company", "Bilinmiyor")
+            cache[mac] = vendor
+            save_vendor_cache(cache)
+            return jsonify({"vendor": vendor})
+        else:
+            return jsonify({"vendor": "Sorgulama başarısız"}), 400
+    except Exception as e:
+        return jsonify({"vendor": f"Hata: {str(e)}"}), 500
+
 
 @app.route('/api/macs')
 def mac_api():

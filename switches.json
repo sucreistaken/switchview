@@ -1,0 +1,23 @@
+[
+  {
+    "ip": "172.16.99.12",
+    "brand": "Huawei",
+    "snmp": {
+      "user": "fastnac",
+      "auth": "F4stN@c*",
+      "priv": "F4stN@c*"
+    },
+    "ssh": {
+      "username": "bkadmin02",
+      "password": "Kimya01*-"
+    }
+  },
+  {
+    "ip": "172.16.99.13",
+    "snmp": {
+      "user": "fastnac",
+      "auth": "F4stN@c*",
+      "priv": "F4stN@c*"
+    }
+  }
+]
