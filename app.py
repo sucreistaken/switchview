@@ -17,7 +17,7 @@ def index():
     else:
         data = []
 
-    switch_ips = sorted(set(entry['switch_ip'] for entry in data))
+    switch_ips = sorted(set(entry['switch_ip'] for entry in data if 'switch_ip' in entry))
     return render_template('index.html', switch_ips=switch_ips)
 import requests
 
@@ -74,8 +74,15 @@ def switch_detail(ip):
     else:
         data = []
 
+    # Filtreleme
     filtered = [entry for entry in data if entry.get('switch_ip') == ip]
-    x_ports = sorted(set(e['port'] for e in filtered if e['port'].startswith("XGigabitEthernet")))
+
+    # switch_info entry'sini ayrıca al
+    info_entry = next((entry for entry in data if 'switch_info' in entry and entry['switch_info'].get('switch_ip') == ip), None)
+    if info_entry:
+        filtered.insert(0, info_entry)  # En başa ekle
+
+    x_ports = sorted(set(e['port'] for e in filtered if 'port' in e and e['port'].startswith("XGigabitEthernet")))
     return render_template('switch_detail.html', entries=filtered, switch_ip=ip, x_ports=x_ports)
 
 @app.route('/scan', methods=['POST'])

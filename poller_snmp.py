@@ -4,56 +4,64 @@ from pysnmp.hlapi import *
 
 SWITCHES_FILE = r"C:\Users\BILGIISLEM\Desktop\nac-panel\switches.json"
 OUTPUT_FILE = 'data/mac_table.json'
+IFSPEED = '1.3.6.1.2.1.2.2.1.5'
+IFHIGHSPEED = '1.3.6.1.2.1.31.1.1.1.15'  # Mbps olarak döner
 
 DOT1D_TP_FDB_ADDRESS = '1.3.6.1.2.1.17.4.3.1.1'
 DOT1D_TP_FDB_PORT    = '1.3.6.1.2.1.17.4.3.1.2'
 DOT1D_BASEPORT_IFIDX = '1.3.6.1.2.1.17.1.4.1.2'
 IFDESCR              = '1.3.6.1.2.1.2.2.1.2'
 DOT1Q_PVID           = '1.3.6.1.2.1.17.7.1.4.5.1.1'
+IFOPERSTATUS = '1.3.6.1.2.1.2.2.1.8'  # Port operasyon durumu
+IFINOCTETS     = '1.3.6.1.2.1.2.2.1.10'
+IFOUTOCTETS    = '1.3.6.1.2.1.2.2.1.16'
+IFINERRORS     = '1.3.6.1.2.1.2.2.1.14'
+IFOUTERRORS    = '1.3.6.1.2.1.2.2.1.20'
+SYS_UPTIME = '1.3.6.1.2.1.1.3.0'
+
 
 TRUNK_PORTS = ["GE0/0/24", "GigabitEthernet0/0/24"]  # trunk portlar için VLAN güvenilmez
-# power informations
-def get_poe_info(ip, user, auth, priv):
-    oids = {
-        "enabled": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.15",
-        "status": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.16",
-        "voltage": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.18",
-        "current": "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.19",
-        "power":   "1.3.6.1.4.1.2011.5.25.41.1.1.1.1.20"
-    }
 
-    results = {key: {} for key in oids}
 
-    for key, oid in oids.items():
-        for (errInd, errStat, errIdx, varBinds) in bulkCmd(
-            SnmpEngine(),
-            UsmUserData(user, auth, priv, authProtocol=usmHMACMD5AuthProtocol, privProtocol=usmDESPrivProtocol),
-            UdpTransportTarget((ip, 161), timeout=5, retries=3),
-            ContextData(),
-            0, 50,
-            ObjectType(ObjectIdentity(oid)),
-            lexicographicMode=False
-        ):
-            if errInd or errStat:
-                break
-            for vb in varBinds:
-                index = vb[0].prettyPrint().split('.')[-1]
-                results[key][index] = str(vb[1])
-    
-    # Combine by port index
-    combined = []
-    for idx in results["enabled"]:
-        combined.append({
-            "index": idx,
-            "enabled": results["enabled"].get(idx, "N/A"),
-            "status": results["status"].get(idx, "N/A"),
-            "voltage": results["voltage"].get(idx, "N/A"),
-            "current": results["current"].get(idx, "N/A"),
-            "power": results["power"].get(idx, "N/A"),
-        })
+MODEL_OID = '1.3.6.1.2.1.1.1.0'  # sysDescr
+def get_single_value(ip, user, auth, priv, oid):
+    for (errInd, errStat, errIdx, varBinds) in getCmd(
+        SnmpEngine(),
+        UsmUserData(user, auth, priv,
+                    authProtocol=usmHMACMD5AuthProtocol,
+                    privProtocol=usmDESPrivProtocol),
+        UdpTransportTarget((ip, 161), timeout=5.0, retries=3),
+        ContextData(),
+        ObjectType(ObjectIdentity(oid))
+    ):
+        if errInd or errStat:
+            return None
+        return str(varBinds[0][1])
 
-    return combined
-###########
+def get_device_model(ip, user, auth, priv):
+    for (errInd, errStat, errIdx, varBinds) in getCmd(
+        SnmpEngine(),
+        UsmUserData(user, auth, priv,
+                    authProtocol=usmHMACMD5AuthProtocol,
+                    privProtocol=usmDESPrivProtocol),
+        UdpTransportTarget((ip, 161), timeout=5.0, retries=3),
+        ContextData(),
+        ObjectType(ObjectIdentity(MODEL_OID))
+    ):
+        if errInd or errStat:
+            return "Bilinmiyor"
+        return str(varBinds[0][1])
+
+def format_uptime(ticks):
+    try:
+        seconds = int(ticks) // 100
+        days, rem = divmod(seconds, 86400)
+        hours, rem = divmod(rem, 3600)
+        minutes, seconds = divmod(rem, 60)
+        return f"{days}g {hours}s {minutes}d {seconds}s"
+    except:
+        return "Bilinmiyor"
+
 def snmp_bulk(ip, oid, user, auth, priv):
     result = []
     for (errInd, errStat, errIdx, varBinds) in bulkCmd(
@@ -101,7 +109,21 @@ def collect_switch_data(sw):
     ports = snmp_bulk(ip, DOT1D_TP_FDB_PORT, user, auth, priv)
     bridge_if = snmp_bulk(ip, DOT1D_BASEPORT_IFIDX, user, auth, priv)
     ifdesc = snmp_bulk(ip, IFDESCR, user, auth, priv)
+    ifoperstatus = snmp_bulk(ip, IFOPERSTATUS, user, auth, priv)
+    in_octets    = snmp_bulk(ip, IFINOCTETS, user, auth, priv)
+    out_octets   = snmp_bulk(ip, IFOUTOCTETS, user, auth, priv)
+    in_errors    = snmp_bulk(ip, IFINERRORS, user, auth, priv)
+    out_errors   = snmp_bulk(ip, IFOUTERRORS, user, auth, priv)
+
     pvids = snmp_bulk(ip, DOT1Q_PVID, user, auth, priv)
+    ifhighspeed = snmp_bulk(ip, IFHIGHSPEED, user, auth, priv)
+    speed_map = {int(v[0].prettyPrint().split('.')[-1]): int(v[1]) for v in ifhighspeed}
+    
+    status_map = {int(v[0].prettyPrint().split('.')[-1]): int(v[1]) for v in ifoperstatus}
+    in_oct_map  = {int(v[0].prettyPrint().split('.')[-1]): int(v[1]) for v in in_octets}
+    out_oct_map = {int(v[0].prettyPrint().split('.')[-1]): int(v[1]) for v in out_octets}
+    in_err_map  = {int(v[0].prettyPrint().split('.')[-1]): int(v[1]) for v in in_errors}
+    out_err_map = {int(v[0].prettyPrint().split('.')[-1]): int(v[1]) for v in out_errors}
 
     bridge_map = {int(v[0].prettyPrint().split('.')[-1]): int(v[1]) for v in bridge_if}
     ifname_map = {int(v[0].prettyPrint().split('.')[-1]): str(v[1]) for v in ifdesc}
@@ -117,7 +139,7 @@ def collect_switch_data(sw):
 
         if port_name in TRUNK_PORTS:
             vlan += " (PVID, gerçek VLAN olmayabilir)"
-
+            
         port_number = resolve_port_number(port_name)
 
         result.append({
@@ -125,7 +147,13 @@ def collect_switch_data(sw):
             "port": port_name,
             "mac": mac,
             "vlan": vlan,
-            "port_number": port_number
+            "port_number": port_number,
+            "speed_mbps": speed_map.get(ifindex, None),
+            "status": "up" if status_map.get(ifindex, 2) == 1 else "down",
+            "in_octets": in_oct_map.get(ifindex, 0),
+            "out_octets": out_oct_map.get(ifindex, 0),
+            "in_errors": in_err_map.get(ifindex, 0),
+            "out_errors": out_err_map.get(ifindex, 0),
         })
             # Fiziksel port sayısını say
     gigabit_count = len([name for name in ifname_map.values() if name.startswith("GigabitEthernet0/0/")])
@@ -150,54 +178,69 @@ def collect_switch_data(sw):
             "port": port_name,
             "mac": "",
             "vlan": "",
-            "port_number": port_number
+            "port_number": port_number,
+            "status": "down"
         })
-    poe_info = get_poe_info(ip, user, auth, priv)
-    return result, poe_info
+
+    return result
  
 import sys
 
 def main():
-    if len(sys.argv) < 2:
-        print("Kullanım: python poller_snmp.py <ip>")
-        return
+    try:
+        if len(sys.argv) < 2:
+            print("Kullanım: python poller_snmp.py <ip>")
+            return
 
-    target_ip = sys.argv[1]
+        target_ip = sys.argv[1]
 
-    with open(SWITCHES_FILE) as f:
-        switches = json.load(f)
+        with open(SWITCHES_FILE) as f:
+            switches = json.load(f)
 
-    sw = next((s for s in switches if s['ip'] == target_ip), None)
-    if not sw:
-        print(f"Switch bulunamadı: {target_ip}")
-        return
+        sw = next((s for s in switches if s['ip'] == target_ip), None)
+        if not sw:
+            print(f"Switch bulunamadı: {target_ip}")
+            return
 
-    print(f"[+] {target_ip} sorgulaniyor...")
-    data, poe_data = collect_switch_data(sw)
-    with open('data/poe_info.json', 'w') as f:
-        json.dump(poe_data, f, indent=2)
+        print(f"[+] {target_ip} sorgulaniyor...")
+        data = collect_switch_data(sw)
 
-    # Önceki kayıtları oku
-    if os.path.exists(OUTPUT_FILE):
-        with open(OUTPUT_FILE) as f:
-            all_data = json.load(f)
-    else:
-        all_data = []
         
+        model = get_device_model(target_ip, sw['snmp']['user'], sw['snmp']['auth'], sw['snmp']['priv'])
+        uptime_raw = get_single_value(target_ip, sw['snmp']['user'], sw['snmp']['auth'], sw['snmp']['priv'], SYS_UPTIME)
+        uptime = format_uptime(uptime_raw)
+        print(f"[+] Cihaz Modeli: {model}")
 
-    # Eski verileri bu switch IP'sine göre filtrele (temizle)
-    all_data = [entry for entry in all_data if entry['switch_ip'] != target_ip]
+        switch_info = {
+            "switch_info": {
+                "switch_ip": target_ip,
+                "device_model": model,
+                "uptime": uptime
+            }
+        }
+        for entry in data:
+            entry["device_model"] = model
+        if os.path.exists(OUTPUT_FILE):
+            with open(OUTPUT_FILE) as f:
+                all_data = json.load(f)
+        else:
+            all_data = []
 
-    # Yeni verileri ekle
-    all_data.extend(data)
-
-    with open(OUTPUT_FILE, 'w') as f:
-        json.dump(all_data, f, indent=2)
         
+        all_data = [entry for entry in all_data if entry.get('switch_ip') != target_ip and entry.get('switch_info', {}).get('switch_ip') != target_ip]
+        all_data.append(switch_info)
+        all_data.extend(data)
 
-            
-    print(f"[✓] {target_ip} için {len(data)} kayıt eklendi → {OUTPUT_FILE}")
+        with open(OUTPUT_FILE, 'w') as f:
+            json.dump(all_data, f, indent=2)
 
+        print(f"[✓] {target_ip} için {len(data)} kayıt eklendi → {OUTPUT_FILE}")
+
+    except Exception as e:
+        print(f"[!] HATA: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)  # Bu exit Flask tarafından hata olarak algılanıyor
 
 if __name__ == '__main__':
     main()
