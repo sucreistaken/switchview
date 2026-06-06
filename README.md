@@ -1,57 +1,49 @@
 # switchview
 
-**SNMP-based switch & MAC-address visibility for campus networks.**
+Web dashboard that shows which devices are connected to which switch ports on a campus network. Used in production at Izmir University of Economics on a fleet of around 40 Huawei and Cisco switches.
 
-Polls a list of switches via SNMPv3, reads the bridge MAC-address table + per-port stats, resolves vendors via MAC OUI, and serves a Flask web dashboard so the network team can answer "which port is this device on, and what is it" in seconds instead of CLI sessions.
+## What it does
 
-In active production use at Izmir University of Economics on a Huawei + Cisco mixed fleet.
-
-## What it shows
+Polls each switch over SNMPv3, reads the MAC address table and port stats, and stores them as JSON. A Flask app reads that JSON and shows:
 
 - All switches in the fleet, filterable by IP
-- Per-switch MAC table: MAC → port → VLAN → vendor (via maclookup.app, locally cached)
-- Per-port stats: speed, oper status, in/out octets, in/out errors
-- Trunk-port awareness (excluded from the per-VLAN counting where it would be misleading)
+- For each switch: every MAC address, which port it sits on, what VLAN it's in, and the device vendor (looked up from the MAC prefix via maclookup.app, cached locally)
+- Per-port stats: link speed, operational status, in/out bytes, in/out errors
+- Trunk ports are detected and excluded from VLAN-specific counting (where the VLAN data would be misleading on a trunk)
 
-## How it's built
+This replaces the daily routine of SSHing into each switch and running `display mac-address` (Huawei) or `show mac address-table` (Cisco) to find where a device is plugged in.
 
-| Layer | Stack |
+## Tech stack
+
+| Part | Built with |
 |---|---|
-| Poller | Python + `pysnmp` (`poller_snmp.py`) — walks `dot1dTpFdbAddress`, `dot1dTpFdbPort`, ifTable, dot1q PVID |
-| Cache | Local JSON (`data/mac_table.json`, `data/vendor_cache.json`) |
-| API + UI | Flask (`app.py`) + Jinja templates (`templates/`) |
-| Vendor lookup | `api.maclookup.app` with on-disk cache |
+| Poller (`poller_snmp.py`) | Python, pysnmp. Walks the bridge MAC table, ifTable, dot1q PVID. |
+| Cache | Local JSON files in `data/` |
+| Web app (`app.py`) | Flask, Jinja templates |
+| Vendor lookup | api.maclookup.app, results cached on disk |
 
-Switch inventory lives in `switches.json` (per-switch IP, brand, SNMP creds, SSH creds for remote actions). The poller runs on a schedule; the Flask app reads the cached JSON and renders.
-
-## Quick start
+## Run it
 
 ```bash
 git clone https://github.com/sucreistaken/switchview.git
 cd switchview
-
 pip install flask pysnmp requests
 
-# 1. Copy switches.json.example -> switches.json and fill in your inventory
-# 2. Run the poller (writes data/mac_table.json)
+# 1. Edit switches.json with your inventory (use the .example file as a template)
+# 2. Run the poller once to generate data/mac_table.json
 python poller_snmp.py
 
-# 3. Serve the dashboard
+# 3. Start the web app
 python app.py
-# -> http://localhost:5000
+# Open http://localhost:5000
 ```
 
-For production: run `poller_snmp.py` on a cron/systemd timer (every 5-15 min depending on table size), and the Flask app behind nginx + gunicorn.
+In production: run the poller on a 5 to 15 minute timer (cron or systemd) and put the Flask app behind nginx + gunicorn.
 
-## Security notes
+## Important: credentials
 
-- **Never commit real `switches.json` with SNMP / SSH credentials to a public repo.** Use `switches.json.example` as a template, gitignore the real file, and inject credentials via environment variables or a secrets manager in production.
-- The maclookup API is read-only and rate-limited; the local cache keeps you well under the free tier for normal campus traffic.
-
-## Why this exists
-
-Manual `display mac-address` on Huawei or `show mac address-table` on Cisco gets old when you have 8,000 students and ~40 switches and you're trying to track down which port a rogue device is on. switchview reduces "find the port" from a CLI session to a search box.
+Do not commit a real `switches.json` to a public repository. It contains SNMPv3 user/auth/priv credentials and SSH passwords for every switch. Use `switches.json.example` as a placeholder, add the real file to `.gitignore`, and load credentials from environment variables or a secrets manager.
 
 ## Status
 
-Production-deployed; iterating on the UI and stats layer. Not packaged for general distribution yet — repo serves as the reference implementation for the IEU network team and a portfolio piece.
+Live in production. Iterating on the UI and the stats view. Not packaged as a general-purpose product. This is the reference implementation we use at IEU.
